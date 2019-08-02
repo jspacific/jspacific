@@ -1,0 +1,158 @@
+html, body {
+  font-size: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  margin-top: 35px;
+}
+
+.header .section-background {
+  display: block;
+  margin-top: 75px;
+}
+
+.page-title {
+  position: relative;
+  overflow: hidden;
+}
+
+.page-logo {
+  width: 260px;
+  height: auto;
+}
+
+.lead-copy {
+  font-size: 55px;
+  border-bottom: 4px solid #000;
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+}
+
+.subcopy {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.block-navigation {
+  text-align: center;
+  position: relative;
+}
+
+.navigation-menu {
+  font-size: 17px;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+.navigation-menu__item {
+  display: inline;
+  margin-left: 15px;
+}
+.navigation-menu__item a {
+  color: #000;
+  font-weight: 600;
+}
+
+.clients {
+  margin-top: 40px;
+}
+
+.client-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.client-list li {
+  float: left;
+}
+.client-list img {
+  width: 100%;
+  height: auto;
+}
+
+.header .section-background {
+  background: url(http://jspacific.com.au/JS_img1.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 580px;
+}
+
+.main .section-background {
+  background: url(http://jspacific.com.au/JS_img2.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 410px;
+}
+
+.sub-copy-list {
+  font-size: 20px;
+  padding-left: 10vw;
+}
+
+.clients .subcopy {
+  border-bottom: 4px solid #000;
+  margin-bottom: 75px;
+  padding-bottom: 35px;
+}
+
+.contact {
+  font-size: 20px;
+  margin-top: 75px;
+}
+
+.contact .email {
+  margin: 40px 0;
+}
+
+.footer {
+  padding: 80px 0;
+}
+
+.footer-item {
+  float: left;
+}
+
+.footer-item_right {
+  float: right;
+}
+
+@media (min-width: 768px) {
+  .header {
+    margin-top: 75px;
+  }
+
+  .page-title {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+  }
+
+  .block-navigation {
+    text-align: right;
+  }
+
+  .page-logo {
+    margin-right: -66px;
+  }
+
+  .navigation-menu {
+    display: block;
+  }
+}
+@media (min-width: 1650px) {
+  .section-background {
+    max-width: 68%;
+    margin: auto;
+  }
+}
