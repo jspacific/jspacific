@@ -110,8 +110,16 @@ h1, h2, h3, h4 {
   margin-top: 75px;
 }
 
+.contact .address {
+  margin: 0 0 40px;
+}
+
 .contact .email {
   margin: 40px 0;
+}
+
+.map iframe {
+  width: 100%;
 }
 
 .footer {
