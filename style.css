@@ -138,6 +138,7 @@ h1, h2, h3, h4 {
   float: right;
 }
 
+
 @media (min-width: 768px) {
   .header {
     margin-top: 75px;
@@ -149,7 +150,7 @@ h1, h2, h3, h4 {
     right: 0;
     overflow: hidden;
   }
-  
+
   .block-navigation {
     text-align: right;
   }
@@ -161,14 +162,14 @@ h1, h2, h3, h4 {
   .navigation-menu {
     display: block;
   }
-  
+
   .lead-copy {
     font-size: 55px;
   }
 }
 @media (min-width: 1650px) {
   .section-background {
-    max-width: 68%;
+    max-width: 100%;
     margin: auto;
   }
 }
