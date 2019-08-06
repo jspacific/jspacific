@@ -69,9 +69,13 @@ h1, h2, h3, h4 {
   margin-top: 40px;
 }
 
+.clients .sub-copy-list {
+  margin-bottom: 80px;
+}
+
 .client-list {
   list-style: none;
-  margin: 0;
+  margin: 0 0 40px;
   padding: 0;
 }
 .client-list li {
